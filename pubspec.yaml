@@ -1,6 +1,6 @@
 name: rok_base_core
-description: "Rok Base Core Package"
-version: 0.0.1
+description: "Rok Base Core Package Follow Clean MVVM"
+version: 0.1.0
 homepage: https://github.com/thachhpn2k/rok_base_core
 
 environment:
@@ -10,6 +10,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  # A Dart package that helps to implement value based equality without needing to explicitly override == and hashCode.
+  equatable: ^2.0.5
+
+  # The framework to build testable, scalable and maintainable flutter apps
+  stacked: ^3.4.3
+
+  # A Dart implementation of the Result Monad which allows for more expressive result generation and processing without using exceptions.
+  result_monad: ^2.3.2
 
 dev_dependencies:
   flutter_test:
